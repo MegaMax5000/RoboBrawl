@@ -1,0 +1,13 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\Paper Luigi\Unity\Assets\Scripts\PlayerControlScript.cs">
+    <Files>
+      <File FileName="..\..\Paper Luigi\Unity\Assets\Scripts\PlayerControlScript.cs" Line="94" Column="5" />
+      <File FileName="Assets\Scripts\RoboCharacterControl.cs" Line="80" Column="6" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

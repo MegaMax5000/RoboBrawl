@@ -1,0 +1,715 @@
+fileFormatVersion: 2
+guid: 85005de9f35bdad4495d9f0db07edf23
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Arm_L
+    100002: Arm_R
+    100004: Armature
+    100006: Chest
+    100008: Cube_003
+    100010: Fing1base_L
+    100012: Fing1base_R
+    100014: Fing1tip_L
+    100016: Fing1tip_R
+    100018: Fing2base_L
+    100020: Fing2base_R
+    100022: Fing2tip_L
+    100024: Fing2tip_R
+    100026: Foot_L
+    100028: Foot_R
+    100030: Forearm_L
+    100032: Forearm_R
+    100034: Head
+    100036: Hip_L
+    100038: Hip_R
+    100040: Neck
+    100042: Shin_L
+    100044: Shin_R
+    100046: Shoulder_L
+    100048: Shoulder_R
+    100050: //RootNode
+    100052: Thigh_L
+    100054: Thigh_R
+    100056: Waist
+    400000: Arm_L
+    400002: Arm_R
+    400004: Armature
+    400006: Chest
+    400008: Cube_003
+    400010: Fing1base_L
+    400012: Fing1base_R
+    400014: Fing1tip_L
+    400016: Fing1tip_R
+    400018: Fing2base_L
+    400020: Fing2base_R
+    400022: Fing2tip_L
+    400024: Fing2tip_R
+    400026: Foot_L
+    400028: Foot_R
+    400030: Forearm_L
+    400032: Forearm_R
+    400034: Head
+    400036: Hip_L
+    400038: Hip_R
+    400040: Neck
+    400042: Shin_L
+    400044: Shin_R
+    400046: Shoulder_L
+    400048: Shoulder_R
+    400050: //RootNode
+    400052: Thigh_L
+    400054: Thigh_R
+    400056: Waist
+    4300000: Cube_003
+    7400000: Default Take
+    7400002: Idle_Smile-y
+    7400004: JumpAir_Smiley
+    7400006: JumpLand_Smiley
+    7400008: JumpStart_Smile-y
+    7400010: JumpStartRun_Smile-y_001
+    7400012: Run_Smile-y
+    9500000: //RootNode
+    13700000: Cube_003
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Default Take
+      takeName: Default Take
+      firstFrame: 0
+      lastFrame: 32
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Hip_L
+        weight: 1
+      - path: Armature/Hip_L/Thigh_L
+        weight: 1
+      - path: Armature/Hip_L/Thigh_L/Shin_L
+        weight: 1
+      - path: Armature/Hip_L/Thigh_L/Shin_L/Foot_L
+        weight: 1
+      - path: Armature/Hip_R
+        weight: 1
+      - path: Armature/Hip_R/Thigh_R
+        weight: 1
+      - path: Armature/Hip_R/Thigh_R/Shin_R
+        weight: 1
+      - path: Armature/Hip_R/Thigh_R/Shin_R/Foot_R
+        weight: 1
+      - path: Armature/Waist
+        weight: 1
+      - path: Armature/Waist/Chest
+        weight: 1
+      - path: Armature/Waist/Chest/Neck
+        weight: 1
+      - path: Armature/Waist/Chest/Neck/Head
+        weight: 1
+      - path: Armature/Waist/Chest/Shoulder_L
+        weight: 1
+      - path: Armature/Waist/Chest/Shoulder_L/Arm_L
+        weight: 1
+      - path: Armature/Waist/Chest/Shoulder_L/Arm_L/Forearm_L
+        weight: 1
+      - path: Armature/Waist/Chest/Shoulder_L/Arm_L/Forearm_L/Fing1base_L
+        weight: 1
+      - path: Armature/Waist/Chest/Shoulder_L/Arm_L/Forearm_L/Fing1base_L/Fing1tip_L
+        weight: 1
+      - path: Armature/Waist/Chest/Shoulder_L/Arm_L/Forearm_L/Fing2base_L
+        weight: 1
+      - path: Armature/Waist/Chest/Shoulder_L/Arm_L/Forearm_L/Fing2base_L/Fing2tip_L
+        weight: 1
+      - path: Armature/Waist/Chest/Shoulder_R
+        weight: 1
+      - path: Armature/Waist/Chest/Shoulder_R/Arm_R
+        weight: 1
+      - path: Armature/Waist/Chest/Shoulder_R/Arm_R/Forearm_R
+        weight: 1
+      - path: Armature/Waist/Chest/Shoulder_R/Arm_R/Forearm_R/Fing1base_R
+        weight: 1
+      - path: Armature/Waist/Chest/Shoulder_R/Arm_R/Forearm_R/Fing1base_R/Fing1tip_R
+        weight: 1
+      - path: Armature/Waist/Chest/Shoulder_R/Arm_R/Forearm_R/Fing2base_R
+        weight: 1
+      - path: Armature/Waist/Chest/Shoulder_R/Arm_R/Forearm_R/Fing2base_R/Fing2tip_R
+        weight: 1
+      - path: Cube_003
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Idle_Smile-y
+      takeName: Idle_Smile-y
+      firstFrame: -1
+      lastFrame: 169
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Hip_L
+        weight: 1
+      - path: Armature/Hip_L/Thigh_L
+        weight: 1
+      - path: Armature/Hip_L/Thigh_L/Shin_L
+        weight: 1
+      - path: Armature/Hip_L/Thigh_L/Shin_L/Foot_L
+        weight: 1
+      - path: Armature/Hip_R
+        weight: 1
+      - path: Armature/Hip_R/Thigh_R
+        weight: 1
+      - path: Armature/Hip_R/Thigh_R/Shin_R
+        weight: 1
+      - path: Armature/Hip_R/Thigh_R/Shin_R/Foot_R
+        weight: 1
+      - path: Armature/Waist
+        weight: 1
+      - path: Armature/Waist/Chest
+        weight: 1
+      - path: Armature/Waist/Chest/Neck
+        weight: 1
+      - path: Armature/Waist/Chest/Neck/Head
+        weight: 1
+      - path: Armature/Waist/Chest/Shoulder_L
+        weight: 1
+      - path: Armature/Waist/Chest/Shoulder_L/Arm_L
+        weight: 1
+      - path: Armature/Waist/Chest/Shoulder_L/Arm_L/Forearm_L
+        weight: 1
+      - path: Armature/Waist/Chest/Shoulder_L/Arm_L/Forearm_L/Fing1base_L
+        weight: 1
+      - path: Armature/Waist/Chest/Shoulder_L/Arm_L/Forearm_L/Fing1base_L/Fing1tip_L
+        weight: 1
+      - path: Armature/Waist/Chest/Shoulder_L/Arm_L/Forearm_L/Fing2base_L
+        weight: 1
+      - path: Armature/Waist/Chest/Shoulder_L/Arm_L/Forearm_L/Fing2base_L/Fing2tip_L
+        weight: 1
+      - path: Armature/Waist/Chest/Shoulder_R
+        weight: 1
+      - path: Armature/Waist/Chest/Shoulder_R/Arm_R
+        weight: 1
+      - path: Armature/Waist/Chest/Shoulder_R/Arm_R/Forearm_R
+        weight: 1
+      - path: Armature/Waist/Chest/Shoulder_R/Arm_R/Forearm_R/Fing1base_R
+        weight: 1
+      - path: Armature/Waist/Chest/Shoulder_R/Arm_R/Forearm_R/Fing1base_R/Fing1tip_R
+        weight: 1
+      - path: Armature/Waist/Chest/Shoulder_R/Arm_R/Forearm_R/Fing2base_R
+        weight: 1
+      - path: Armature/Waist/Chest/Shoulder_R/Arm_R/Forearm_R/Fing2base_R/Fing2tip_R
+        weight: 1
+      - path: Cube_003
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: JumpAir_Smiley
+      takeName: JumpAir_Smiley
+      firstFrame: -1
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Hip_L
+        weight: 1
+      - path: Armature/Hip_L/Thigh_L
+        weight: 1
+      - path: Armature/Hip_L/Thigh_L/Shin_L
+        weight: 1
+      - path: Armature/Hip_L/Thigh_L/Shin_L/Foot_L
+        weight: 1
+      - path: Armature/Hip_R
+        weight: 1
+      - path: Armature/Hip_R/Thigh_R
+        weight: 1
+      - path: Armature/Hip_R/Thigh_R/Shin_R
+        weight: 1
+      - path: Armature/Hip_R/Thigh_R/Shin_R/Foot_R
+        weight: 1
+      - path: Armature/Waist
+        weight: 1
+      - path: Armature/Waist/Chest
+        weight: 1
+      - path: Armature/Waist/Chest/Neck
+        weight: 1
+      - path: Armature/Waist/Chest/Neck/Head
+        weight: 1
+      - path: Armature/Waist/Chest/Shoulder_L
+        weight: 1
+      - path: Armature/Waist/Chest/Shoulder_L/Arm_L
+        weight: 1
+      - path: Armature/Waist/Chest/Shoulder_L/Arm_L/Forearm_L
+        weight: 1
+      - path: Armature/Waist/Chest/Shoulder_L/Arm_L/Forearm_L/Fing1base_L
+        weight: 1
+      - path: Armature/Waist/Chest/Shoulder_L/Arm_L/Forearm_L/Fing1base_L/Fing1tip_L
+        weight: 1
+      - path: Armature/Waist/Chest/Shoulder_L/Arm_L/Forearm_L/Fing2base_L
+        weight: 1
+      - path: Armature/Waist/Chest/Shoulder_L/Arm_L/Forearm_L/Fing2base_L/Fing2tip_L
+        weight: 1
+      - path: Armature/Waist/Chest/Shoulder_R
+        weight: 1
+      - path: Armature/Waist/Chest/Shoulder_R/Arm_R
+        weight: 1
+      - path: Armature/Waist/Chest/Shoulder_R/Arm_R/Forearm_R
+        weight: 1
+      - path: Armature/Waist/Chest/Shoulder_R/Arm_R/Forearm_R/Fing1base_R
+        weight: 1
+      - path: Armature/Waist/Chest/Shoulder_R/Arm_R/Forearm_R/Fing1base_R/Fing1tip_R
+        weight: 1
+      - path: Armature/Waist/Chest/Shoulder_R/Arm_R/Forearm_R/Fing2base_R
+        weight: 1
+      - path: Armature/Waist/Chest/Shoulder_R/Arm_R/Forearm_R/Fing2base_R/Fing2tip_R
+        weight: 1
+      - path: Cube_003
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: JumpLand_Smiley
+      takeName: JumpLand_Smiley
+      firstFrame: -1
+      lastFrame: 8
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Hip_L
+        weight: 1
+      - path: Armature/Hip_L/Thigh_L
+        weight: 1
+      - path: Armature/Hip_L/Thigh_L/Shin_L
+        weight: 1
+      - path: Armature/Hip_L/Thigh_L/Shin_L/Foot_L
+        weight: 1
+      - path: Armature/Hip_R
+        weight: 1
+      - path: Armature/Hip_R/Thigh_R
+        weight: 1
+      - path: Armature/Hip_R/Thigh_R/Shin_R
+        weight: 1
+      - path: Armature/Hip_R/Thigh_R/Shin_R/Foot_R
+        weight: 1
+      - path: Armature/Waist
+        weight: 1
+      - path: Armature/Waist/Chest
+        weight: 1
+      - path: Armature/Waist/Chest/Neck
+        weight: 1
+      - path: Armature/Waist/Chest/Neck/Head
+        weight: 1
+      - path: Armature/Waist/Chest/Shoulder_L
+        weight: 1
+      - path: Armature/Waist/Chest/Shoulder_L/Arm_L
+        weight: 1
+      - path: Armature/Waist/Chest/Shoulder_L/Arm_L/Forearm_L
+        weight: 1
+      - path: Armature/Waist/Chest/Shoulder_L/Arm_L/Forearm_L/Fing1base_L
+        weight: 1
+      - path: Armature/Waist/Chest/Shoulder_L/Arm_L/Forearm_L/Fing1base_L/Fing1tip_L
+        weight: 1
+      - path: Armature/Waist/Chest/Shoulder_L/Arm_L/Forearm_L/Fing2base_L
+        weight: 1
+      - path: Armature/Waist/Chest/Shoulder_L/Arm_L/Forearm_L/Fing2base_L/Fing2tip_L
+        weight: 1
+      - path: Armature/Waist/Chest/Shoulder_R
+        weight: 1
+      - path: Armature/Waist/Chest/Shoulder_R/Arm_R
+        weight: 1
+      - path: Armature/Waist/Chest/Shoulder_R/Arm_R/Forearm_R
+        weight: 1
+      - path: Armature/Waist/Chest/Shoulder_R/Arm_R/Forearm_R/Fing1base_R
+        weight: 1
+      - path: Armature/Waist/Chest/Shoulder_R/Arm_R/Forearm_R/Fing1base_R/Fing1tip_R
+        weight: 1
+      - path: Armature/Waist/Chest/Shoulder_R/Arm_R/Forearm_R/Fing2base_R
+        weight: 1
+      - path: Armature/Waist/Chest/Shoulder_R/Arm_R/Forearm_R/Fing2base_R/Fing2tip_R
+        weight: 1
+      - path: Cube_003
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: JumpStart_Smile-y
+      takeName: JumpStart_Smile-y
+      firstFrame: -1
+      lastFrame: 25
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Hip_L
+        weight: 1
+      - path: Armature/Hip_L/Thigh_L
+        weight: 1
+      - path: Armature/Hip_L/Thigh_L/Shin_L
+        weight: 1
+      - path: Armature/Hip_L/Thigh_L/Shin_L/Foot_L
+        weight: 1
+      - path: Armature/Hip_R
+        weight: 1
+      - path: Armature/Hip_R/Thigh_R
+        weight: 1
+      - path: Armature/Hip_R/Thigh_R/Shin_R
+        weight: 1
+      - path: Armature/Hip_R/Thigh_R/Shin_R/Foot_R
+        weight: 1
+      - path: Armature/Waist
+        weight: 1
+      - path: Armature/Waist/Chest
+        weight: 1
+      - path: Armature/Waist/Chest/Neck
+        weight: 1
+      - path: Armature/Waist/Chest/Neck/Head
+        weight: 1
+      - path: Armature/Waist/Chest/Shoulder_L
+        weight: 1
+      - path: Armature/Waist/Chest/Shoulder_L/Arm_L
+        weight: 1
+      - path: Armature/Waist/Chest/Shoulder_L/Arm_L/Forearm_L
+        weight: 1
+      - path: Armature/Waist/Chest/Shoulder_L/Arm_L/Forearm_L/Fing1base_L
+        weight: 1
+      - path: Armature/Waist/Chest/Shoulder_L/Arm_L/Forearm_L/Fing1base_L/Fing1tip_L
+        weight: 1
+      - path: Armature/Waist/Chest/Shoulder_L/Arm_L/Forearm_L/Fing2base_L
+        weight: 1
+      - path: Armature/Waist/Chest/Shoulder_L/Arm_L/Forearm_L/Fing2base_L/Fing2tip_L
+        weight: 1
+      - path: Armature/Waist/Chest/Shoulder_R
+        weight: 1
+      - path: Armature/Waist/Chest/Shoulder_R/Arm_R
+        weight: 1
+      - path: Armature/Waist/Chest/Shoulder_R/Arm_R/Forearm_R
+        weight: 1
+      - path: Armature/Waist/Chest/Shoulder_R/Arm_R/Forearm_R/Fing1base_R
+        weight: 1
+      - path: Armature/Waist/Chest/Shoulder_R/Arm_R/Forearm_R/Fing1base_R/Fing1tip_R
+        weight: 1
+      - path: Armature/Waist/Chest/Shoulder_R/Arm_R/Forearm_R/Fing2base_R
+        weight: 1
+      - path: Armature/Waist/Chest/Shoulder_R/Arm_R/Forearm_R/Fing2base_R/Fing2tip_R
+        weight: 1
+      - path: Cube_003
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: JumpStartRun_Smile-y_001
+      takeName: JumpStartRun_Smile-y_001
+      firstFrame: -1
+      lastFrame: 14
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Hip_L
+        weight: 1
+      - path: Armature/Hip_L/Thigh_L
+        weight: 1
+      - path: Armature/Hip_L/Thigh_L/Shin_L
+        weight: 1
+      - path: Armature/Hip_L/Thigh_L/Shin_L/Foot_L
+        weight: 1
+      - path: Armature/Hip_R
+        weight: 1
+      - path: Armature/Hip_R/Thigh_R
+        weight: 1
+      - path: Armature/Hip_R/Thigh_R/Shin_R
+        weight: 1
+      - path: Armature/Hip_R/Thigh_R/Shin_R/Foot_R
+        weight: 1
+      - path: Armature/Waist
+        weight: 1
+      - path: Armature/Waist/Chest
+        weight: 1
+      - path: Armature/Waist/Chest/Neck
+        weight: 1
+      - path: Armature/Waist/Chest/Neck/Head
+        weight: 1
+      - path: Armature/Waist/Chest/Shoulder_L
+        weight: 1
+      - path: Armature/Waist/Chest/Shoulder_L/Arm_L
+        weight: 1
+      - path: Armature/Waist/Chest/Shoulder_L/Arm_L/Forearm_L
+        weight: 1
+      - path: Armature/Waist/Chest/Shoulder_L/Arm_L/Forearm_L/Fing1base_L
+        weight: 1
+      - path: Armature/Waist/Chest/Shoulder_L/Arm_L/Forearm_L/Fing1base_L/Fing1tip_L
+        weight: 1
+      - path: Armature/Waist/Chest/Shoulder_L/Arm_L/Forearm_L/Fing2base_L
+        weight: 1
+      - path: Armature/Waist/Chest/Shoulder_L/Arm_L/Forearm_L/Fing2base_L/Fing2tip_L
+        weight: 1
+      - path: Armature/Waist/Chest/Shoulder_R
+        weight: 1
+      - path: Armature/Waist/Chest/Shoulder_R/Arm_R
+        weight: 1
+      - path: Armature/Waist/Chest/Shoulder_R/Arm_R/Forearm_R
+        weight: 1
+      - path: Armature/Waist/Chest/Shoulder_R/Arm_R/Forearm_R/Fing1base_R
+        weight: 1
+      - path: Armature/Waist/Chest/Shoulder_R/Arm_R/Forearm_R/Fing1base_R/Fing1tip_R
+        weight: 1
+      - path: Armature/Waist/Chest/Shoulder_R/Arm_R/Forearm_R/Fing2base_R
+        weight: 1
+      - path: Armature/Waist/Chest/Shoulder_R/Arm_R/Forearm_R/Fing2base_R/Fing2tip_R
+        weight: 1
+      - path: Cube_003
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Run_Smile-y
+      takeName: Run_Smile-y
+      firstFrame: -1
+      lastFrame: 15
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Hip_L
+        weight: 1
+      - path: Armature/Hip_L/Thigh_L
+        weight: 1
+      - path: Armature/Hip_L/Thigh_L/Shin_L
+        weight: 1
+      - path: Armature/Hip_L/Thigh_L/Shin_L/Foot_L
+        weight: 1
+      - path: Armature/Hip_R
+        weight: 1
+      - path: Armature/Hip_R/Thigh_R
+        weight: 1
+      - path: Armature/Hip_R/Thigh_R/Shin_R
+        weight: 1
+      - path: Armature/Hip_R/Thigh_R/Shin_R/Foot_R
+        weight: 1
+      - path: Armature/Waist
+        weight: 1
+      - path: Armature/Waist/Chest
+        weight: 1
+      - path: Armature/Waist/Chest/Neck
+        weight: 1
+      - path: Armature/Waist/Chest/Neck/Head
+        weight: 1
+      - path: Armature/Waist/Chest/Shoulder_L
+        weight: 1
+      - path: Armature/Waist/Chest/Shoulder_L/Arm_L
+        weight: 1
+      - path: Armature/Waist/Chest/Shoulder_L/Arm_L/Forearm_L
+        weight: 1
+      - path: Armature/Waist/Chest/Shoulder_L/Arm_L/Forearm_L/Fing1base_L
+        weight: 1
+      - path: Armature/Waist/Chest/Shoulder_L/Arm_L/Forearm_L/Fing1base_L/Fing1tip_L
+        weight: 1
+      - path: Armature/Waist/Chest/Shoulder_L/Arm_L/Forearm_L/Fing2base_L
+        weight: 1
+      - path: Armature/Waist/Chest/Shoulder_L/Arm_L/Forearm_L/Fing2base_L/Fing2tip_L
+        weight: 1
+      - path: Armature/Waist/Chest/Shoulder_R
+        weight: 1
+      - path: Armature/Waist/Chest/Shoulder_R/Arm_R
+        weight: 1
+      - path: Armature/Waist/Chest/Shoulder_R/Arm_R/Forearm_R
+        weight: 1
+      - path: Armature/Waist/Chest/Shoulder_R/Arm_R/Forearm_R/Fing1base_R
+        weight: 1
+      - path: Armature/Waist/Chest/Shoulder_R/Arm_R/Forearm_R/Fing1base_R/Fing1tip_R
+        weight: 1
+      - path: Armature/Waist/Chest/Shoulder_R/Arm_R/Forearm_R/Fing2base_R
+        weight: 1
+      - path: Armature/Waist/Chest/Shoulder_R/Arm_R/Forearm_R/Fing2base_R/Fing2tip_R
+        weight: 1
+      - path: Cube_003
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .200000003
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
